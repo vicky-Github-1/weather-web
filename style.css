@@ -1,0 +1,98 @@
+ body{
+            font-family: Arial, sans-serif;
+            background-color: #4A90E2; 
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(68, 65, 65);
+            border-radius: 15px;
+            padding: 5px;
+            color: #4A90E2;
+            background-color: white;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        #search-box {
+            display: flex;
+            margin-bottom: 30px;
+        }
+        #city-input {
+            padding: 10px;
+            font-size: 18px;
+            
+            border-radius: 5px;
+            margin-right: 10px;
+            outline: none;
+            width: 200px;
+        }
+        #search-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #FFF;
+            cursor: pointer;
+        }
+        #weather {
+            background-color: rgba(234, 226, 226, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 300px;
+        }
+        #weather:hover{
+            box-shadow: 0 0 30px rgba(7, 6, 6, 0.5);
+            transition: 1.2s;
+        /* box-shadow:5px 10px 10px black ; */
+      }
+        #city {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: black;
+        }
+        #temp {
+            font-size: 52px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        #description {
+            font-size: 25px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        #extra-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1vw;
+            gap: 1vw;
+        }
+        #extra-info div {
+            width: 45%;
+            background-color: rgba(104, 113, 241, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+            color: black;
+        }
+        #img{
+            height: 70px;
+            width: 70px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+ 
