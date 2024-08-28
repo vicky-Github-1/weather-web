@@ -17,8 +17,9 @@ document.getElementById('search-button').addEventListener('click',async()=>{
     let res= await fetch(url);
    
     let data =await res.json()
+    let temp_val=data.current.temp_c
      temp.innerText=`${data.current.temp_c}°C` ;
-     feelsLike.innerText=`Feels like: ${data.current.temp_c + 2.1}°C`;
+     feelsLike.innerText=`Feels like: ${temp_val + 2}°C`;
      tempHum.innerText=`Humidity: ${data.current.humidity}%`;
      cityName.innerText=data.location.name ;
     if(data.current.temp_c>30){
