@@ -80,7 +80,7 @@
         #extra-info {
             display: flex;
             justify-content: space-between;
-            font-size: 1vw;
+            font-size: 15px;
             gap: 1vw;
         }
         #extra-info div {
