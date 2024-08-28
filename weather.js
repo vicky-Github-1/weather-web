@@ -12,7 +12,7 @@ let img=document.getElementById('img')
 document.getElementById('search-button').addEventListener('click',async()=>{
     var city = document.getElementById('city-input').value;
     console.log( city);
-    const url=`http://api.weatherapi.com/v1/current.json?key=d29249ec3cc746028b042715242708&q=${city}&aqi=no`;
+    const url=`https://api.weatherapi.com/v1/current.json?key=d29249ec3cc746028b042715242708&q=${city}&aqi=no`;
     document.getElementById('city-input').value=""
     let res= await fetch(url);
    
